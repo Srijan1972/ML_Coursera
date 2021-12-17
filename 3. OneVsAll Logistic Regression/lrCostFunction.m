@@ -41,12 +41,6 @@ J=(-1/m)*(y'*log(sigmoid(temp))+(1-y)'*log(1-sigmoid(temp)))+(lambda/(2*m))*(the
 grad=(1/m)*(X'*(sigmoid(temp)-y))+(lambda/m)*theta;
 grad(1)=grad(1)-(lambda/m)*theta(1);
 
-
-
-
-
-
-
 % =============================================================
 
 grad = grad(:);
